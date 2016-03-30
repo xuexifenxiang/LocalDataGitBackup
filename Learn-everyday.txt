@@ -1,0 +1,36 @@
+最近任务：
+openstack、KVM、XenServer简单使用操作、存储（*结构与管理工具）
+
+Linux上安全值 SCAP 安全内容自动化协议中文社区 Security Content Automation Protocol Chinese Community
+熟练Linux上漏洞查找与修复 （patch diff）
+数据库操作与漏洞修复
+
+shell与python基础
+
+网络
+
+
+Other quetions：
+PGP keys
+隧道网络
+/etc/apt/source.list中源的说明
+mysql集群种类与优劣分析（优化、垂直切分与水平切分）
+DMZ
+CentOS7 KVM安装libvirt失败，需要使用卸载lvm2-2.02.105-14.el7.x86_64
+yum install qemu-kvm  libvirt virt-install bridge-utils 安装其他工具
+网络编程API
+python自动登录网站
+drbd数据同步与binlog日志同步的对比
+ASM自动存储管理
+环路的产生与检测（检测环路可以通过arp表来看，arp与端口对应关系）
+
+HW-surport网站登录信息
+kingredfly
+wanghongfei@huahengxin.com
+passwd:Learn@#654321
+
+KVM official document，now the problem about vnc is remained！
+http://linux.dell.com/files/whitepapers/KVM_Virtualization_in_RHEL_7_Made_Easy.pdf
+
+
+

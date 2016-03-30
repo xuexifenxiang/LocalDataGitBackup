@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<title>刘沙(@刘沙)的腾讯微博 - 微博秀组件 - 腾讯微博开放平台</title>
+<meta name="keywords" content="微博,微博组件,腾讯微博">
+<meta name="description" content="微博秀是腾讯微博开发的一款微博组件，网站主只要进行一些简单设置并将获取的代码布署到自己的网站中，就可以在自己的网站中展现自己的腾讯微博">
+<link href="index_data/show.css" type="text/css" rel="stylesheet">
+<link href="index_data/4.css" type="text/css" rel="stylesheet">
+<link rel="shortcut icon" href="http://mat1.gtimg.com/app/opent/images/index/favicon.ico">
+<script src="index_data/jquery.js"></script>
+<!--<script src="http://mat1.gtimg.com/app/vt/js/filter.js"></script>-->
+<style>
+#border{background-color:#DEDEDE;}
+h1{background:url(http://mat1.gtimg.com/app/vt/images/show/titbg.png) repeat-x #E6E6E6;_ background-image:none;
+}
+h1 a{background: url(http://mat1.gtimg.com/app/vt/images/show/titbg2.png) no-repeat left top;
+_background: url(http://mat1.gtimg.com/app/vt/images/show/titbg2.png) no-repeat !important; 
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://mat1.gtimg.com/app/vt/images/show/titbg2.png");
+_background:none;
+}
+.toppat b{color:#F7F7F7;}
+.sendbox textarea,#border,#tweetList,#fansArea,#tweetList li,
+#tweetArea .source,#fansList li img,.userIco img{border-color:#F7F7F7;}
+body,#accinfo a,#tweetArea li a,#hisFans a,#fansList li a{color:#333333;}
+
+</style>
+<!--[if IE 6]> 
+<style>
+.tweetinfo span.l {
+    word-wrap:break-word;
+    word-break:keep-all;
+}
+#tweetList{
+    width:100%;
+}
+#tweetArea li .source{
+    padding:4px 5px;  
+    width: 90% ;
+    margin:0 5px;
+}
+#tweetList li{  
+    width: 90% ;
+}
+h1 a{
+    width:87px;
+    height:24px;
+}
+.toppat{
+    background:none;
+}
+</style>
+<![endif]-->
+</head>
+<body>
+<div id="border" style="width:-1001px; height:500px">
+        <div id="dataArea">
+        <div id="userInfo">
+            <div class="userIco">
+                <a href="http://t.qq.com/ipython" title="刘沙(@刘沙)" target="_blank">
+                    <img src="index_data/50.jpg" height="50" width="50">
+                </a>
+            </div>
+            <div class="userInfo">
+            <p style="height:20px;overflow:hidden"><strong>
+            <a href="http://t.qq.com/ipython" title="刘沙(@ipython)" target="_blank">刘沙 </a></strong> 
+            </p>  
+             
+                        <p style=" display: inline-block; padding-top: 12px;"><a id="listenclick" target="_blank" href="http://t.qq.com/" class="addlisten"></a></p>
+                        </div>
+        </div>
+        <div class="otips" style="right:10px"><a href="http://dev.open.t.qq.com/websites/show?explain=3" target="_blank" title="获取我的微博秀"></a></div>
+         
+                <div id="tweetList" style="height:438px">
+            <ul id="tweetArea">
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/475163106864925" target="_blank">谁画出这天地，又画下我和你....</a><p class="tweetinfo"><span class="l">2015年12月29日 20:30 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/479467091858266" target="_blank">做一个复杂的人，走一段不幸福的人生。</a><p class="tweetinfo"><span class="l">2015年12月8日 20:05 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/508146001348586" target="_blank">Youth is not a time of life, it is a state of mind.</a><p class="tweetinfo"><span class="l">2015年12月7日 13:20 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/506342118531059" target="_blank">ipython.me 毕竟有了快2年的回忆，听人劝保留下来，新的博客用coreos.me来记录....</a><p class="tweetinfo"><span class="l">2015年11月17日 21:27 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/488042061875341" target="_blank">花了3个小时，重写了Q
+群消息抓取进程， 睡醒重新接前台！</a><p class="tweetinfo"><span class="l">2015年11月14日 02:23 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/511541076584871" target="_blank">新版发布系统今天不能上线，我从九楼跳下去！</a><p class="tweetinfo"><span class="l">2015年11月9日 17:18 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/506604069426742" target="_blank">Subversion 的接口写起来太伤脑了！</a><p class="tweetinfo"><span class="l">2015年11月8日 17:47 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/477054076548155" target="_blank">度蜜月</a><p class="tweetinfo"><span class="l">2015年10月31日 10:20 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/480765044137098" target="_blank">找内涵？
+</a><p class="imgshow"><img src="index_data/160.jpg"></p><p class="tweetinfo"><span class="l">2015年10月29日 20:51 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/511937034866920" target="_blank">lua .....
+</a><p class="tweetinfo"><span class="l">2015年10月16日 20:34 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/505930053587611" target="_blank">The ECMAScript language types are Undefined, Null, Boolean,  String, Symbol, Number, and Object。</a><p class="tweetinfo"><span class="l">2015年9月12日 14:11 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/515030037396253" target="_blank">下一世 我不要搞IT。
+</a><p class="tweetinfo"><span class="l">2015年9月10日 21:23 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/189869036887363" target="_blank">抢不到标，7个点就7个点吧....</a><p class="imgshow"><img src="index_data/160.png"></p><p class="tweetinfo"><span class="l">2015年8月30日 14:22 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/478139117968145" target="_blank">有人管午饭吗？</a><p class="imgshow"><img src="index_data/160_002.jpg"></p><p class="tweetinfo"><span class="l">2015年8月26日 11:47 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/475439089271472" target="_blank">#分享音乐# #我的天空 (Live)-贝贝/修儿# </a><a href="http://url.cn/eMIubP?type=1&amp;from=19&amp;u=ipython&amp;s=&amp;f=&amp;skey=&amp;t=475439089271472&amp;msgfrom=1357&amp;clickfrom=&amp;clickscene=vt_show&amp;area=msgtext" target="_blank">http://url.cn/eMIubP</a>  这唱的啥jb玩意，丑人多作怪<p class="tweetinfo"><span class="l">2015年8月24日 08:14 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/413253075035516" target="_blank">公司为了防止我们加班太晚，所以空调一直10来°，到了这个点，像我这样身子弱的，基本上都知难而退了。</a><p class="tweetinfo"><span class="l">2015年8月20日 21:54 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/481213027615000" target="_blank">时间并不会真的帮我们解决什么问题，它只是把原来怎么也想不通的问题，变得不再重要了。</a><p class="tweetinfo"><span class="l">2015年8月13日 11:34 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/486330074934645" target="_blank">无论在什么样的岁数里，成长这件事情，都是我们灵魂里一辈子的课题。</a><p class="tweetinfo"><span class="l">2015年8月12日 23:47 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/509822029330602" target="_blank">这JB中国电信，尽干jb缺德事，草泥马的</a><p class="tweetinfo"><span class="l">2015年8月12日 16:35 来自网页</span></p></li>
+                 
+                    <li style="display:block;overflow:hidden;"><a href="http://t.qq.com/p/t/471075089832319" target="_blank">
+
+
+
+
+
+
+
+
+听着许巍的歌，心像是被突然撞击，抖落出些许岁月的碎片。 曾经的青春的迷惘，无羁，漫漫飘落在空中.....</a><p class="tweetinfo"><span class="l">2015年7月16日 19:58 来自网页</span></p></li>
+                  
+            </ul> 
+        </div>
+         
+        
+            </div>
+</div>
+<script type="text/javascript">
+var name = 'ipython';
+var appkey = '';
+$(document).ready(function(){
+    /**
+      *  发表微博
+      */
+    $('#sendweibobtn').click(function(){
+            var contentInfo = $.trim($('textarea#contentInfo').val())
+            if(contentInfo == ''){
+                 alert('不能发空信息！');
+                 return false;
+            } 
+            var t = contentInfo.replace(new RegExp("((news|telnet|nttp|file|http|ftp|https)://){1}(([-A-Za-z0-9]+(\\.[-A-Za-z0-9]+)*(\\.[-A-Za-z]{2,5}))|([0-9]{1,3}(\\.[0-9]{1,3}){3}))(:[0-9]*)?(/[-A-Za-z0-9_\\$\\.\\+\\!\\*\\(\\),;:@&=\\?/~\\#\\%]*)*","gi"),'填充填充填充填充填充填');
+            var k=140-Math.ceil(($.trim(t.replace(/[^\u0000-\u00ff]/g,"aa")).length)/2);
+            if(k<0) {
+                return false; 
+            }
+
+            var param = {
+                'content':contentInfo,
+                'hash':getcookie('__hash__')
+            };
+            $.post('/index.php?c=show&a=add',param,function(d){
+                eval('var d='+d);
+                if(d.ret ==0 && d.errcode==0){
+                    $('textarea#contentInfo').val('');
+                    var SendHtml ='<li style="display:block;overflow:hidden;">';
+                    SendHtml +='<a target="_blank" href="http://t.qq.com/p/t/'+d.data.id+'">'+contentInfo+'</a>';
+                    SendHtml +='<p class="tweetinfo">';
+                    SendHtml +='<span class="l">1分钟前 来自网页</span>';
+                    SendHtml +='</p></li>';
+                    $('div ul#tweetArea').prepend(SendHtml);
+                    $('label strong#textcount').html('140');
+                    alert('发表成功!');
+                }
+                else if(d.errcode==13){
+                    alert('重复发表!');
+                }else if(d.errcode==4){
+                    alert('有敏感词，不能发表!');
+                }else if(d.errcode==11){
+                    alert('发表太快，被频率限制!');
+                }else if(d.errcode==9){
+                    alert('包含垃圾信息：广告，恶意链接、黑名单号码等!');
+                }else{
+                    alert('发表失败!');
+                }
+            }); 
+     });
+
+    /**
+      * 收听或 取消收听
+      */
+    $('#listenArea').click(function(){  
+        var op =$('#listenArea a').attr('class') == 'canlisten' ? 2 : 1;
+        var listenAreaHtml = op==2 ? '<a  id=\'listenclick\' href="javascript:;" class="addlisten"></a>' :'<a  id=\'listenclick\' href="javascript:;" class="canlisten"> 取消收听</a>';
+        var param = {
+                name: name,
+                appkey: appkey, 
+                op: op,
+                hash:getcookie('__hash__')
+            };
+            $.post('/index.php?c=show&a=listen',param,function(d){
+                eval('var d='+d);
+                if(d.ret ==0){  
+                    $('#listenArea').html(listenAreaHtml);
+                    alert((op === 2 ? "取消收听":"收听")+"成功！");
+                }
+                else if(d.ret == 3){    
+                        location.href='http://t.qq.com/';
+                }
+                else{
+                    alert('操作失败!');
+                }
+            }); 
+             
+     });    
+})
+
+function getcookie(name) {
+    var cookie_start = document.cookie.indexOf(name);
+    var cookie_end = document.cookie.indexOf(";", cookie_start);
+    return cookie_start == -1 ? '' : unescape(document.cookie.substring(cookie_start + name.length + 1, (cookie_end > cookie_start ? cookie_end : document.cookie.length)));
+}
+
+function counttext(t,o)
+{
+    t = t.replace(new RegExp("((news|telnet|nttp|file|http|ftp|https)://){1}(([-A-Za-z0-9]+(\\.[-A-Za-z0-9]+)*(\\.[-A-Za-z]{2,5}))|([0-9]{1,3}(\\.[0-9]{1,3}){3}))(:[0-9]*)?(/[-A-Za-z0-9_\\$\\.\\+\\!\\*\\(\\),;:@&=\\?/~\\#\\%]*)*","gi"),'填充填充填充填充填充填');
+    var k=140-Math.ceil(($.trim(t.replace(/[^\u0000-\u00ff]/g,"aa")).length)/2);
+    o.innerHTML=k;
+    k>0?o.style.color='':o.style.color='red';
+}
+</script>
+
+</body></html>

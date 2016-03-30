@@ -1,0 +1,4 @@
+BAIDU_UNION_define({"tuid" : "u1650512_0","queryid" : "862541743e14102a","placement" : {"basic" : {"cname":"cnkungfu_cpr","flowType":1,"rspFormat":1,"sellType":2,"sspId":1,"tuId":9223372032561459024,"userId":1675657}
+,"container" : {"anchoredType":1,"floated":{"trigger":8},"height":250,"sizeType":1,"slide":{},"width":300}
+,"fillstyle" : {"backgroundColor":"#1B63A1","cloudTheme":{},"elements":[5,0,2,1,4],"flush":0,"layout":[1],"lu":{},"search":{},"txt":{"cbackground":"#1B63A1","cborder":"#FF0000","cdesc":"#31ED62","cflush":"#e10900","ctitle":"#FF0000","curl":"#FF0000","number":4},"video":{}}
+,"userdefine" : "cpro_template=text_default_300_250","complement_type" : 2},"extends" : "","pdb_deliv" : {"deliv_id" : "0","deliv_des" : {},"brandad" : 0},"order_deliv" : {"deliv_id" : "0","demand_id" : "0"},"rtb_deliv" : {"deliv_id" : "0","demand_id" : "1650512"}});

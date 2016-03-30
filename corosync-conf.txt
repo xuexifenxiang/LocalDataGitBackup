@@ -1,0 +1,46 @@
+totem {
+         rrp_mode:       active
+         join:   60
+         max_messages:   20
+         vsftype:        none
+         consensus:      4000
+         secauth:        off
+         threads:        0
+         token_retransmits_before_loss_const:    10
+         token:  3000
+         version:        2
+         clear_node_high_bit:    yes
+         nodeid: 2
+         interface {
+                 device: bond0
+                 clusterid:      100
+                 mcastport:      1028
+                 ringnumber:     0
+         }
+         interface {
+                 device: bond2
+                 clusterid:      100
+                 mcastport:      1026
+                 ringnumber:     1
+         }
+ }
+logging {
+         to_logfile:     yes
+         to_stderr:      no
+         timestamp:      on
+         syslog_facility:        daemon
+         to_syslog:      no
+         debug:  off
+         logfile:        /opt/hacs/log/corosync/corosync.log
+         runlogfile:     /opt/hacs/log/corosync/corosync_run.log
+         debugfile:      /opt/hacs/log/corosync/corosync_debug.log
+         fileline:       off
+ }
+
+amf {
+         mode:   disable
+         auto_clean_move_info:   on
+         auto_resume_from_brainsplit:    off
+         onstopfail_reboot_timeout:      1800
+ }
+
